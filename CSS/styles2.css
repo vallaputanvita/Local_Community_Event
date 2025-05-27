@@ -1,0 +1,38 @@
+/* Universal Selector: Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ID Selector: Styling the welcome banner */
+#welcomeBanner {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Element Selector: Styling all h2 elements */
+h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+/* Class Selector: Highlighting important text */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* ID Selector: Styling the main header */
+#mainHeader {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: darkred;
+}
